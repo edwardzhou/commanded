@@ -61,14 +61,21 @@ MIT License
       - [Composite command routers](guides/Commands.md#composite-command-routers)
     - [Middleware](guides/Commands.md#middleware)
       - [Example middleware](guides/Commands.md#example-middleware)
+    - [Composite command routers](guides/Commands.md#composite-command-routers)
   - [Events](guides/Events.md)
     - [Domain events](guides/Events.md#domain-events)
     - [Event handlers](guides/Events.md#event-handlers)
       - [Consistency guarantee](guides/Events.md#consistency-guarantee)
+    - [Upcasting events](guides/Events.md#upcasting-events)
   - [Process managers](guides/Process%20Managers.md)
     - [Example process manager](guides/Process%20Managers.md#example-process-manager)
   - [Supervision](guides/Supervision.md)
   - [Serialization](guides/Serialization.md)
+    - [Default JSON serializer](guides/Serialization.md#default-json-serializer)
+    - [Configuring JSON serialization](guides/Serialization.md#configuring-json-serialization)
+    - [Decoding event structs](guides/Serialization.md#decoding-event-structs)
+    - [Using an alternative serialization format](guides/Serialization.md#using-an-alternative-serialization-format)
+    - [Customising serialization](guides/Serialization.md#customising-serialization)
   - [Read model projections](guides/Read%20Model%20Projections.md)
 - [Deployment](guides/Deployment.md)
   - [Single node deployment](guides/Deployment.md#single-node-deployment)
@@ -86,9 +93,7 @@ MIT License
 
 ## Used in production?
 
-Yes, Commanded is being used in production.
-
-- Case Study: [Building a CQRS/ES web application in Elixir using Phoenix](https://10consulting.com/2017/01/04/building-a-cqrs-web-application-in-elixir-using-phoenix/)
+Yes, see the [companies using Commanded](https://github.com/commanded/commanded/wiki/Companies-using-Commanded).
 
 ## Example application
 
